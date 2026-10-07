@@ -6,25 +6,25 @@ cask "prizmal" do
     end
   end
 
-  version "0.1.2"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      sha256 "1b2d1de478899ffafb762a41af3b69aa2f5dbac9d2f499bd456d58cd11f0bb14"
+      sha256 "91425a3939693dc9238abd9e9f9a46938564054b73b008163368699fc4492f28"
       url "https://github.com/PrizmalAi/prizmal-cli/releases/download/v#{version}/prizmal-cli_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "68b9bf5d1199f988ac01fa698a94e4bda9cfcdebdc7482ad3fd147787c50f341"
+      sha256 "430087692152767e44a538fbecb6b2deb844d7633861d094d32f871d52844255"
       url "https://github.com/PrizmalAi/prizmal-cli/releases/download/v#{version}/prizmal-cli_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "f1c5bfdd4903d4016728ad84be9039c363a59ed7d297cd6b71f30a8934bf7d5d"
+      sha256 "10230a92fb41afbdbfa7799d79d1fe83c4ccbacf9dc360ff4028750b628ceb5b"
       url "https://github.com/PrizmalAi/prizmal-cli/releases/download/v#{version}/prizmal-cli_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "61ff0f675c3f36e65da4e9b975a251a2c066a9d5436134455745a70f0d28d31f"
+      sha256 "2e79d7bfb2fd2fbf3eb6c3a19a6e1c40cf20c56e6e84f2325f3aa238d6046c5f"
       url "https://github.com/PrizmalAi/prizmal-cli/releases/download/v#{version}/prizmal-cli_#{version}_linux_amd64.tar.gz"
     end
   end
